@@ -229,7 +229,7 @@ const handleChange = () => {
     width: '48%',
     height: 150,
     marginTop : 10,
-    position: 'relative', // Required for absolute positioning of text
+    position: 'relative', 
   },
   gridImage: {
     width: '100%',
@@ -243,7 +243,7 @@ const handleChange = () => {
     right: 0,
     textAlign: 'center',
     color: '#ffffff',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Semi-transparent background
+    backgroundColor: 'rgba(0, 0, 0, 0.5)', 
     padding: 5,
     borderBottomLeftRadius: 10,
     borderBottomRightRadius: 10,

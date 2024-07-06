@@ -20,8 +20,8 @@ const SignUp= () => {
       <View style={styles.form}>
         <CustomInput></CustomInput>
       </View>
-      <TouchableOpacity style={styles.signinButton}>
-      <Text style={styles.buttonText} onPress={handleClick}>Signup</Text>
+      <TouchableOpacity style={styles.signinButton} onPress={handleClick}>
+      <Text style={styles.buttonText} >Signup</Text>
       </TouchableOpacity>
       <Text style={styles.orText}>or</Text>
       <TouchableOpacity style={styles.googleButton}>

@@ -18,7 +18,7 @@ export default function App() {
         </Link>
       </View>
           <View style={styles.signupTextContainer}>
-            <Text style={styles.signupText}>Don't have an account? <Link href={"/profile"} style={styles.linkstyle}>Sign Up now!</Link></Text>
+            <Text style={styles.signupText}>Don't have an account? <Link href={"/signup"} style={styles.linkstyle}>Sign Up now!</Link></Text>
           </View>
           
         </View>
